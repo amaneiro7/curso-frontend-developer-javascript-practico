@@ -346,6 +346,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
   }
   /* Estilos de los contenedores del producto */
 
@@ -364,6 +365,7 @@
     height: 240px;
     border-radius: 20px;
     object-fit: contain;    
+    cursor: pointer;
   }
   .productInfo {
     display: flex;
