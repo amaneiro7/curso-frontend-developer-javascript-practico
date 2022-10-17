@@ -286,9 +286,12 @@
 
 #product-detail {
     width: 360px;
+    margin-top: 4px;
     padding-bottom: 24px;
     position: absolute;
     right: 0;
+    border: 1px solid var(--hospital-green);
+    border-radius: 16px;
   }
   #product-detail .product-detail-close {
     background: var(--white);
@@ -305,9 +308,9 @@
     cursor: pointer;
   }
   #product-detail > img:nth-child(2) {
-    width: 100%;
+    width: 90%;
     height: 360px;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 0 0 20px 20px;
   }
   #product-detail .product-info {
